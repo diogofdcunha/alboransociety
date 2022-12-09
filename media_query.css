@@ -1,0 +1,19 @@
+@media (max-width: 500px) {
+  #header img {
+    width: 12rem;
+  }
+  footer .logo {
+    max-width: 13rem;
+  }
+}
+@media (max-width: 768px) {
+  #sm-banner {
+    flex-direction: column;
+  }
+  #sm-banner .banner-box {
+    min-width: 100%;
+  }
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+}
