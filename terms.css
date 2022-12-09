@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(img/image.jpg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-box {
+  max-width: 460px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 60px 30px;
+}
+
+.terms-text {
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f1f1f1;
+}
+
+.terms-text::-webkit-scrollbar {
+  width: 2px;
+  background-color: #282828;
+}
+
+.terms-text::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.terms-text h2 {
+  text-transform: uppercase;
+  color: #5c5656;
+  font-size: 22px;
+  text-align: center;
+}
+
+.terms-text h3 {
+  color: #5c5656;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.terms-text p {
+  font-family: Questrial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+.terms-box h4 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.terms-box h4 span {
+  color: #d13639;
+}
+
+.buttons {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 50px;
+  width: calc(120% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.3s linear;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: auto;
+}
+
+.red-btn {
+  background-color: #282828;
+  border-radius: 50px;
+  margin-left: 106px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .red-btn {
+    /* margin: auto; */
+  }
+}
+
+@media (max-width: 960px) {
+  .red-btn {
+    /* margin: auto; */
+  }
+}
+
+@media (max-width: 500px) {
+  .red-btn {
+    width: 100%;
+    /* margin: auto; */
+  }
+}
+@media (max-width: 425px) {
+  .red-btn {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 375px) {
+  .red-btn {
+    margin-left: 64px;
+  }
+}
+
+@media (max-width: 320px) {
+  .red-btn {
+    margin-left: 50px;
+  }
+}
